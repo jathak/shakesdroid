@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="small_text_size">18dp</dimen>
+    <dimen name="normal_text_size">18dp</dimen>
+    <dimen name="note_size">22dp</dimen>
+    <dimen name="list_left">11dp</dimen>
+    <dimen name="small_speaker_size">22dp</dimen>
+    <dimen name="line_num_width">33dp</dimen>
+    <dimen name="line_padding">44dp</dimen>
+    <dimen name="card_padding">36dp</dimen>
+    <dimen name="large_speaker_size">22dp</dimen>
+    <dimen name="stage_dir_size">18dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="indicator_size">22dp</dimen>
+
+</resources>

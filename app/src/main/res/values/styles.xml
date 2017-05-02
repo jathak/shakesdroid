@@ -1,0 +1,466 @@
+<resources>
+
+    <attr name="icon_tint" format="reference"/>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:textColorSecondary">#ff000000</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorTertiary">#ff000000</item>
+        <item name="android:actionBarTabStyle">@style/ABTabs</item>
+        <item name="android:colorPrimary">@color/play</item>
+        <item name="android:colorPrimaryDark">@color/Dark.play</item>
+        <item name="android:colorAccent">@color/play</item>
+        <item name="icon_tint">@color/darkBack</item>
+        <item name="android:windowBackground">@color/window</item>
+        
+        <!-- Customize your theme here. -->
+        <item name="vpiTabPageIndicatorStyle">@style/TabIndicator</item>
+    </style>
+    <style name="DarkTheme" parent="android:Theme.Material">
+        <item name="android:textColorSecondary">#ff000000</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorTertiary">#ff000000</item>
+        <item name="android:actionBarTabStyle">@style/ABTabs</item>
+        <item name="android:colorPrimary">@color/play</item>
+        <item name="android:colorPrimaryDark">@color/play</item>
+        <item name="android:colorAccent">@color/play</item>
+        <item name="icon_tint">@color/lightBack</item>
+        <item name="android:windowBackground">@color/window</item>
+        
+        <!-- Customize your theme here. -->
+        <item name="vpiTabPageIndicatorStyle">@style/TabIndicator</item>
+        <item name="android:textColor">#eee</item>
+    </style>
+    <style name="TabIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:dividerPadding">3dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingRight">12dp</item><!--
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>-->
+    </style>
+    <style name="DarkIndicator" parent="TabIndicator">
+
+    </style>
+    <style name="ABTabs" parent="@android:style/Widget.ActionBar.TabView">
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+    </style>
+    <style name="allswell.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/allswell</item>
+        <item name="android:colorPrimaryDark">@color/Dark.allswell</item>
+        <item name="android:colorAccent">@color/allswell</item>
+
+    </style>
+    <style name="allswell.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/allswell</item>
+        <item name="android:colorPrimaryDark">@color/Dark.allswell</item>
+        <item name="android:colorAccent">@color/allswell</item>
+
+    </style>
+    <style name="antony.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/antony</item>
+        <item name="android:colorPrimaryDark">@color/Dark.antony</item>
+        <item name="android:colorAccent">@color/antony</item>
+
+    </style>
+    <style name="antony.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/antony</item>
+        <item name="android:colorPrimaryDark">@color/Dark.antony</item>
+        <item name="android:colorAccent">@color/antony</item>
+
+    </style>
+    <style name="asyoulike.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/asyoulike</item>
+        <item name="android:colorPrimaryDark">@color/Dark.asyoulike</item>
+        <item name="android:colorAccent">@color/asyoulike</item>
+
+    </style>
+    <style name="asyoulike.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/asyoulike</item>
+        <item name="android:colorPrimaryDark">@color/Dark.asyoulike</item>
+        <item name="android:colorAccent">@color/asyoulike</item>
+
+    </style>
+    <style name="caesar.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/caesar</item>
+        <item name="android:colorPrimaryDark">@color/Dark.caesar</item>
+        <item name="android:colorAccent">@color/caesar</item>
+
+    </style>
+    <style name="caesar.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/caesar</item>
+        <item name="android:colorPrimaryDark">@color/Dark.caesar</item>
+        <item name="android:colorAccent">@color/caesar</item>
+
+    </style>
+    <style name="corio.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/corio</item>
+        <item name="android:colorPrimaryDark">@color/Dark.corio</item>
+        <item name="android:colorAccent">@color/corio</item>
+
+    </style>
+    <style name="corio.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/corio</item>
+        <item name="android:colorPrimaryDark">@color/Dark.corio</item>
+        <item name="android:colorAccent">@color/corio</item>
+
+    </style>
+    <style name="cymb.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/cymb</item>
+        <item name="android:colorPrimaryDark">@color/Dark.cymb</item>
+        <item name="android:colorAccent">@color/cymb</item>
+
+    </style>
+    <style name="cymb.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/cymb</item>
+        <item name="android:colorPrimaryDark">@color/Dark.cymb</item>
+        <item name="android:colorAccent">@color/cymb</item>
+
+    </style>
+    <style name="errors.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/errors</item>
+        <item name="android:colorPrimaryDark">@color/Dark.errors</item>
+        <item name="android:colorAccent">@color/errors</item>
+
+    </style>
+    <style name="errors.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/errors</item>
+        <item name="android:colorPrimaryDark">@color/Dark.errors</item>
+        <item name="android:colorAccent">@color/errors</item>
+
+    </style>
+    <style name="hamlet.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/hamlet</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hamlet</item>
+        <item name="android:colorAccent">@color/hamlet</item>
+
+    </style>
+    <style name="hamlet.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/hamlet</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hamlet</item>
+        <item name="android:colorAccent">@color/hamlet</item>
+
+    </style>
+    <style name="hen_iv.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/hen_iv</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hen_iv</item>
+        <item name="android:colorAccent">@color/hen_iv</item>
+
+    </style>
+    <style name="hen_iv.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/hen_iv</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hen_iv</item>
+        <item name="android:colorAccent">@color/hen_iv</item>
+
+    </style>
+    <style name="hen_v.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/hen_v</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hen_v</item>
+        <item name="android:colorAccent">@color/hen_v</item>
+
+    </style>
+    <style name="hen_v.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/hen_v</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hen_v</item>
+        <item name="android:colorAccent">@color/hen_v</item>
+
+    </style>
+    <style name="hen_vi.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/hen_vi</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hen_vi</item>
+        <item name="android:colorAccent">@color/hen_vi</item>
+
+    </style>
+    <style name="hen_vi.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/hen_vi</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hen_vi</item>
+        <item name="android:colorAccent">@color/hen_vi</item>
+
+    </style>
+    <style name="hen_viii.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/hen_viii</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hen_viii</item>
+        <item name="android:colorAccent">@color/hen_viii</item>
+
+    </style>
+    <style name="hen_viii.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/hen_viii</item>
+        <item name="android:colorPrimaryDark">@color/Dark.hen_viii</item>
+        <item name="android:colorAccent">@color/hen_viii</item>
+
+    </style>
+    <style name="john.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/john</item>
+        <item name="android:colorPrimaryDark">@color/Dark.john</item>
+        <item name="android:colorAccent">@color/john</item>
+
+    </style>
+    <style name="john.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/john</item>
+        <item name="android:colorPrimaryDark">@color/Dark.john</item>
+        <item name="android:colorAccent">@color/john</item>
+
+    </style>
+    <style name="laborlost.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/laborlost</item>
+        <item name="android:colorPrimaryDark">@color/Dark.laborlost</item>
+        <item name="android:colorAccent">@color/laborlost</item>
+
+    </style>
+    <style name="laborlost.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/laborlost</item>
+        <item name="android:colorPrimaryDark">@color/Dark.laborlost</item>
+        <item name="android:colorAccent">@color/laborlost</item>
+
+    </style>
+    <style name="lear.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/lear</item>
+        <item name="android:colorPrimaryDark">@color/Dark.lear</item>
+        <item name="android:colorAccent">@color/lear</item>
+
+    </style>
+    <style name="lear.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/lear</item>
+        <item name="android:colorPrimaryDark">@color/Dark.lear</item>
+        <item name="android:colorAccent">@color/lear</item>
+
+    </style>
+    <style name="macbeth.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/macbeth</item>
+        <item name="android:colorPrimaryDark">@color/Dark.macbeth</item>
+        <item name="android:colorAccent">@color/macbeth</item>
+
+    </style>
+    <style name="macbeth.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/macbeth</item>
+        <item name="android:colorPrimaryDark">@color/Dark.macbeth</item>
+        <item name="android:colorAccent">@color/macbeth</item>
+
+    </style>
+    <style name="measure.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/measure</item>
+        <item name="android:colorPrimaryDark">@color/Dark.measure</item>
+        <item name="android:colorAccent">@color/measure</item>
+
+    </style>
+    <style name="measure.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/measure</item>
+        <item name="android:colorPrimaryDark">@color/Dark.measure</item>
+        <item name="android:colorAccent">@color/measure</item>
+
+    </style>
+    <style name="merrywives.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/merrywives</item>
+        <item name="android:colorPrimaryDark">@color/Dark.merrywives</item>
+        <item name="android:colorAccent">@color/merrywives</item>
+
+    </style>
+    <style name="merrywives.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/merrywives</item>
+        <item name="android:colorPrimaryDark">@color/Dark.merrywives</item>
+        <item name="android:colorAccent">@color/merrywives</item>
+
+    </style>
+    <style name="midsummer.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/midsummer</item>
+        <item name="android:colorPrimaryDark">@color/Dark.midsummer</item>
+        <item name="android:colorAccent">@color/midsummer</item>
+
+    </style>
+    <style name="midsummer.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/midsummer</item>
+        <item name="android:colorPrimaryDark">@color/Dark.midsummer</item>
+        <item name="android:colorAccent">@color/midsummer</item>
+
+    </style>
+    <style name="muchado.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/muchado</item>
+        <item name="android:colorPrimaryDark">@color/Dark.muchado</item>
+        <item name="android:colorAccent">@color/muchado</item>
+
+    </style>
+    <style name="muchado.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/muchado</item>
+        <item name="android:colorPrimaryDark">@color/Dark.muchado</item>
+        <item name="android:colorAccent">@color/muchado</item>
+
+    </style>
+    <style name="othello.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/othello</item>
+        <item name="android:colorPrimaryDark">@color/Dark.othello</item>
+        <item name="android:colorAccent">@color/othello</item>
+
+    </style>
+    <style name="othello.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/othello</item>
+        <item name="android:colorPrimaryDark">@color/Dark.othello</item>
+        <item name="android:colorAccent">@color/othello</item>
+
+    </style>
+    <style name="pericles.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/pericles</item>
+        <item name="android:colorPrimaryDark">@color/Dark.pericles</item>
+        <item name="android:colorAccent">@color/pericles</item>
+
+    </style>
+    <style name="pericles.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/pericles</item>
+        <item name="android:colorPrimaryDark">@color/Dark.pericles</item>
+        <item name="android:colorAccent">@color/pericles</item>
+
+    </style>
+    <style name="rich_ii.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/rich_ii</item>
+        <item name="android:colorPrimaryDark">@color/Dark.rich_ii</item>
+        <item name="android:colorAccent">@color/rich_ii</item>
+
+    </style>
+    <style name="rich_ii.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/rich_ii</item>
+        <item name="android:colorPrimaryDark">@color/Dark.rich_ii</item>
+        <item name="android:colorAccent">@color/rich_ii</item>
+
+    </style>
+    <style name="rich_iii.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/rich_iii</item>
+        <item name="android:colorPrimaryDark">@color/Dark.rich_iii</item>
+        <item name="android:colorAccent">@color/rich_iii</item>
+
+    </style>
+    <style name="rich_iii.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/rich_iii</item>
+        <item name="android:colorPrimaryDark">@color/Dark.rich_iii</item>
+        <item name="android:colorAccent">@color/rich_iii</item>
+
+    </style>
+    <style name="romeo.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/romeo</item>
+        <item name="android:colorPrimaryDark">@color/Dark.romeo</item>
+        <item name="android:colorAccent">@color/romeo</item>
+
+    </style>
+    <style name="romeo.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/romeo</item>
+        <item name="android:colorPrimaryDark">@color/Dark.romeo</item>
+        <item name="android:colorAccent">@color/romeo</item>
+
+    </style>
+    <style name="taming.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/taming</item>
+        <item name="android:colorPrimaryDark">@color/Dark.taming</item>
+        <item name="android:colorAccent">@color/taming</item>
+
+    </style>
+    <style name="taming.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/taming</item>
+        <item name="android:colorPrimaryDark">@color/Dark.taming</item>
+        <item name="android:colorAccent">@color/taming</item>
+
+    </style>
+    <style name="tempest.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/tempest</item>
+        <item name="android:colorPrimaryDark">@color/Dark.tempest</item>
+        <item name="android:colorAccent">@color/tempest</item>
+
+    </style>
+    <style name="tempest.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/tempest</item>
+        <item name="android:colorPrimaryDark">@color/Dark.tempest</item>
+        <item name="android:colorAccent">@color/tempest</item>
+
+    </style>
+    <style name="timon.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/timon</item>
+        <item name="android:colorPrimaryDark">@color/Dark.timon</item>
+        <item name="android:colorAccent">@color/timon</item>
+
+    </style>
+    <style name="timon.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/timon</item>
+        <item name="android:colorPrimaryDark">@color/Dark.timon</item>
+        <item name="android:colorAccent">@color/timon</item>
+
+    </style>
+    <style name="titus.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/titus</item>
+        <item name="android:colorPrimaryDark">@color/Dark.titus</item>
+        <item name="android:colorAccent">@color/titus</item>
+
+    </style>
+    <style name="titus.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/titus</item>
+        <item name="android:colorPrimaryDark">@color/Dark.titus</item>
+        <item name="android:colorAccent">@color/titus</item>
+
+    </style>
+    <style name="troilus.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/troilus</item>
+        <item name="android:colorPrimaryDark">@color/Dark.troilus</item>
+        <item name="android:colorAccent">@color/troilus</item>
+
+    </style>
+    <style name="troilus.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/troilus</item>
+        <item name="android:colorPrimaryDark">@color/Dark.troilus</item>
+        <item name="android:colorAccent">@color/troilus</item>
+
+    </style>
+    <style name="twelfth.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/twelfth</item>
+        <item name="android:colorPrimaryDark">@color/Dark.twelfth</item>
+        <item name="android:colorAccent">@color/twelfth</item>
+
+    </style>
+    <style name="twelfth.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/twelfth</item>
+        <item name="android:colorPrimaryDark">@color/Dark.twelfth</item>
+        <item name="android:colorAccent">@color/twelfth</item>
+
+    </style>
+    <style name="venice.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/venice</item>
+        <item name="android:colorPrimaryDark">@color/Dark.venice</item>
+        <item name="android:colorAccent">@color/venice</item>
+
+    </style>
+    <style name="venice.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/venice</item>
+        <item name="android:colorPrimaryDark">@color/Dark.venice</item>
+        <item name="android:colorAccent">@color/venice</item>
+
+    </style>
+    <style name="two_gent.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/two_gent</item>
+        <item name="android:colorPrimaryDark">@color/Dark.two_gent</item>
+        <item name="android:colorAccent">@color/two_gent</item>
+
+    </style>
+    <style name="two_gent.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/two_gent</item>
+        <item name="android:colorPrimaryDark">@color/Dark.two_gent</item>
+        <item name="android:colorAccent">@color/two_gent</item>
+
+    </style>
+    <style name="winter.Light" parent="@style/AppTheme">
+        <item name="android:colorPrimary">@color/winter</item>
+        <item name="android:colorPrimaryDark">@color/Dark.winter</item>
+        <item name="android:colorAccent">@color/winter</item>
+
+    </style>
+    <style name="winter.Dark" parent="@style/DarkTheme">
+        <item name="android:colorPrimary">@color/winter</item>
+        <item name="android:colorPrimaryDark">@color/Dark.winter</item>
+        <item name="android:colorAccent">@color/winter</item>
+
+    </style>
+
+</resources>

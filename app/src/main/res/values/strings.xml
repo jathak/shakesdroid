@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shakesdroid</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="action_list">
+        <item>All\'s Well that Ends Well</item>
+        <item>As You Like It</item>
+        <item>Antony and Cleopatra</item>
+        <item>A Comedy of Errors</item>
+        <item>Coriolanus</item>
+        <item>Cymbeline</item>
+        <item>Hamlet</item>
+        <item>Henry IV, Part 1</item>
+        <item>Henry IV, Part 2</item>
+        <item>Henry V</item>
+        <item>Henry VI, Part 1</item>
+        <item>Henry VI, Part 2</item>
+        <item>Henry VI, Part 3</item>
+        <item>Henry VIII</item>
+        <item>Julius Caesar</item>
+        <item>King John</item>
+        <item>King Lear</item>
+        <item>Love\'s Labor Lost</item>
+        <item>Macbeth</item>
+        <item>Measure for Measure</item>
+        <item>The Merchant of Venice</item>
+        <item>The Merry Wives of Windsor</item>
+        <item>A Midsummer Night\'s Dream</item>
+        <item>Much Ado About Nothing</item>
+        <item>Othello</item>
+        <item>Pericles</item>
+        <item>Richard II</item>
+        <item>Richard III</item>
+        <item>Romeo &amp; Juliet</item>
+        <item>The Taming of the Shrew</item>
+        <item>The Tempest</item>
+        <item>Timon of Athens</item>
+        <item>Titus Andronicus</item>
+        <item>Troilus and Cressida</item>
+        <item>Twelfth Night</item>
+        <item>Two Gentlemen of Verona</item>
+        <item>A Winter\'s Tale</item>
+    </string-array>
+    <string-array name="play_list">
+        <item>allswell</item>
+        <item>asyoulike</item>
+        <item>antony</item>
+        <item>errors</item>
+        <item>corio</item>
+        <item>cymb</item>
+        <item>hamlet</item>
+        <item>hen_iv_1</item>
+        <item>hen_iv_2</item>
+        <item>hen_v</item>
+        <item>hen_vi_1</item>
+        <item>hen_vi_2</item>
+        <item>hen_vi_3</item>
+        <item>hen_viii</item>
+        <item>caesar</item>
+        <item>john</item>
+        <item>lear</item>
+        <item>laborlost</item>
+        <item>macbeth</item>
+        <item>measure</item>
+        <item>venice</item>
+        <item>merrywives</item>
+        <item>midsummer</item>
+        <item>muchado</item>
+        <item>othello</item>
+        <item>pericles</item>
+        <item>rich_ii</item>
+        <item>rich_iii</item>
+        <item>romeo</item>
+        <item>taming</item>
+        <item>tempest</item>
+        <item>timon</item>
+        <item>titus</item>
+        <item>troilus</item>
+        <item>twelfth</item>
+        <item>two_gent</item>
+        <item>winter</item>
+    </string-array>
+
+    <string name="title_activity_bookmarks">BookmarksActivity</string>
+
+</resources>

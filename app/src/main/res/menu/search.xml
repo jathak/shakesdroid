@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="xyz.jathak.shakespeare.ScriptActivity" >
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        android:showAsAction="collapseActionView|always"
+        android:actionViewClass="android.widget.SearchView" />
+</menu>
